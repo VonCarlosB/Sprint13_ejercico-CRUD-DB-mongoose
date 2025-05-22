@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 
 const TaskSchema = new mongoose.Schema({
-    id:Number,
     title:String,
     completed:Boolean
 }, { timestamps: true })
